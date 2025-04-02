@@ -2,33 +2,33 @@
 
 🚀 Automatically assess image quality without a reference! This project predicts the Mean Opinion Score (MOS) of an image using a deep learning model.
 
-📌 Project Overview
+### 📌 Project Overview
 
 No-Reference Image Quality Assessment (NRIQA) is a machine learning model that predicts image quality without needing a high-quality reference image. It uses a Convolutional Neural Network (CNN) trained on the TID2013 dataset to classify images into different quality levels.
 
-✔ Objective: Predict image quality in real-time.
-      ✔ Dataset Used: TID2013
-      ✔ Model Type: TensorFlow/Keras CNN
-      ✔ Deployment: Hugging Face Spaces + Gradio
+### ✔ Objective: Predict image quality in real-time.
+✔ Dataset Used: TID2013
+✔ Model Type: TensorFlow/Keras CNN
+✔ Deployment: Hugging Face Spaces + Gradio
 
-🔍 Features
+### 🔍 Features
 
 ✅ Predicts the perceived quality of an image.
 ✅ Outputs a Mean Opinion Score (MOS) and quality category (Excellent, Good, Average, Poor, Very Poor).
 ✅ Works without requiring a reference image.
 ✅ Supports real-time predictions using Gradio.
 
-📺 Dataset Used
+### 📺 Dataset Used
 
 We used the TID2013 dataset, which consists of 3,000 distorted images across 25 reference images with 5 different levels of distortion. Each image has a Mean Opinion Score (MOS) based on human perception.
 
-🗂 Dataset Structure:
+### 🗂 Dataset Structure:
 
 Images: Ixx_xx_x.bmp (Distorted Images)
 
 MOS Scores: Provided in mos_with_names.txt
 
-⚙️ Model Architecture
+### ⚙️ Model Architecture
 
 The deep learning model follows a CNN-based architecture:
 
@@ -52,7 +52,7 @@ Mean Squared Error (MSE) is used as the loss function.
 
 Given an image, the model predicts its MOS score and quality category.
 
-📾 Installation & Setup
+### 📾 Installation & Setup
 
 🔹 1️⃣ Clone the Repository
 
@@ -69,7 +69,7 @@ The trained model (image_quality_model.h5) is not included in this repository du
 
 ➡️ Download the model and place it inside the model/ folder.
 
-🚀 Running the Project
+### 🚀 Running the Project
 
 🔹 1️⃣ Run the Gradio App
 
@@ -83,7 +83,7 @@ MOS Score (Numeric score for quality)
 
 Quality Category (Excellent, Good, Average, etc.)
 
-🎨 Example Output
+### 🎨 Example Output
 
 ✅ Input: Sample image
 
@@ -91,7 +91,7 @@ Quality Category (Excellent, Good, Average, etc.)
 
 Predicted Quality: ✅ Good
 
-🛠️ Deployment
+### 🛠️ Deployment
 
 The project is deployed on Hugging Face Spaces using Gradio.➡️ Try it here: 🔗 [Live Demo](https://huggingface.co/spaces/JanardhanM/no-reference-iqa)
 
