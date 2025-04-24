@@ -42,9 +42,9 @@ Convert image names from lowercase (i) to uppercase (I) to match dataset files.
 
 2️⃣ Model Training:
 
-MobileNetV2 layers extract image features.
+ MobileNet-inspired CNN layers extract image features.
 
-Fully connected layers map features to MOS scores.
+Fully connected DNN layers map features to MOS scores.
 
 Mean Squared Error (MSE) is used as the loss function.
 
